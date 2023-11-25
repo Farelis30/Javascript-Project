@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f1f5f8;
+}
+
+.todo-container {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #00589c;
+}
+
+.input-group {
+  width: 60%;
+  display: flex;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.input-group input {
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 1.1rem;
+}
+
+.input-group button {
+  all: unset;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background: #00589c;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.todo-list {
+  margin-top: 1.5rem;
+}
+
+.list-item {
+  margin-top: 1rem;
+  border-radius: 10px;
+  width: 60%;
+  padding: 10px 20px;
+  background-color: white;
+  list-style: none;
+  display: flex;
+  place-items: center;
+}
+
+.list-item p {
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.list-item .action-button {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.action-button button {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.edit {
+  background-color: dodgerblue;
+}
+
+.delete {
+  background-color: crimson;
+}
