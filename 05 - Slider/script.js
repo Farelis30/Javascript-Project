@@ -1,7 +1,6 @@
 let currentIndex = 0;
 
 const showSlide = (index) => {
-  updateDots();
   const slider = document.querySelector(".slider");
   const slides = document.querySelectorAll(".slider-item");
 
