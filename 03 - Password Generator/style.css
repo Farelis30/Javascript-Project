@@ -28,8 +28,8 @@ nav {
 
 .title {
   font-size: 24px;
-  color: dodgerblue;
-  text-shadow: 1px 1px 1px rgba(135, 135, 255, 0.5);
+  color: #7600ad;
+  /* text-shadow: 1px 1px 1px rgba(135, 135, 255, 0.5); */
 }
 
 .group-input {
@@ -56,7 +56,7 @@ nav {
 button {
   width: 100%;
   border: none;
-  background-color: dodgerblue;
+  background-color: #7600ad;
   color: white;
   padding: 1rem;
   font-size: 20px;
@@ -66,6 +66,6 @@ button {
 }
 
 button:hover {
-  background-color: rgb(66, 161, 255);
-  box-shadow: 3px 3px 10px rgba(0, 4, 255, 0.2);
+  background-color: #8d00ce;
+  box-shadow: 3px 3px 10px rgba(118, 0, 173, 0.2);
 }
